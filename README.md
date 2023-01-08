@@ -50,6 +50,10 @@ leden zullen op deze pagina eerst de vragenlijst invullen om hun eerste aanbevel
 - AddEventListener
 - QuerySelectorAll
 
+## ⭐️Bronnen
+
+https://arexank.github.io/look-and-feel-corporate-identity/
+
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
