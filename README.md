@@ -5,8 +5,8 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 ## 📝 Opdracht
 Ontwerp en maak voor een opdrachtgever een component of website op basis van een bestaande huisstijl. 
 
-userstory: 
 
+Userstory 12: De OBA leden willen graag een persoonlijke boekentips krijgen zodat ze worden gestimuleerd om meer te lezen.
 
 ## 🖇Beschrijving
 Door middel van aanbevelingen op basis van het leesgedrag van leden of activiteiten die ze hebben bezocht kunnen zij via hun persoonlijke bibliotheek pagina of app hun lees en kijkgeschiedenis bijhouden en nieuwe aanbevelingen ontvangen. Dit kan leden helpen om nieuwe boeken of andere media te ontdekken die aansluiten bij hun interesses en behoeften.
