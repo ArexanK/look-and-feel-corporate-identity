@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive website vragenlijst</title>
+    <link rel="stylesheet" href="styles/vragenlijst.css" />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+
+    <div class="navbar">
+      <div class="container flex-nav">
+        <div class="nav-header">
+          <div class="logo">
+            <img src="images/oba_logo_kort_roodh.jpeg" alt="oba logo" />
+          </div>
+
+          <p class="subtitle1">mijn bibliotheek</p>
+
+          <p class="subtitle2">welkom [naam lid]</p>
+          <div class="header-container">
+            <button class="nav-toggle" id="navToggle">
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-links" id="nav-links">
+              <ul>
+                <li class="nav-link"><a href="#">mijn gegevens</a></li>
+                <li class="nav-link">
+                  <a href="vragenlijst.html">vragenlijst</a>
+                </li>
+                <li class="nav-link"><a href="#">verlengen</a></li>
+                <li class="nav-link"><a href="#">leeromgeving</a></li>
+                <li class="nav-link">
+                  <a href="#">reserveren</a>
+                </li>
+                <li class="nav-link">
+                  <a href="#">studieruimte reserveren</a>
+                </li>
+                <li class="nav-link">
+                  <a href="#">e-boeken luisterboeken</a>
+                </li>
+                <li class="nav-link">
+                  <a href="login.html">uitloggen</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HTML voor de navigatiebalk -->
+ 
+
+    
+    <form>
+      <!-- Vraag 4 radio buttons -->
+      <div class="container-form">
+      <div class="question">
+       <h1>
+            Zoek je boeken in andere formaten zoals audio/e-boeken?
+       </h1>
+       <label for="required">verplicht</label>
+          <div>
+            <input id="radioDefault_5" name="Field5" type="hidden" value="" />
+            <div>
+              <input
+                id="Field5_0"
+                name="Field5"
+                type="radio"
+                value="First Choice"
+                tabindex="5"
+                checked="checked"
+              />
+              <label class="choice" for="Field5_0">ja</label>
+            </div>
+            <div>
+              <input
+                id="Field5_1"
+                name="Field5"
+                type="radio"
+                value="Second Choice"
+                tabindex="6"
+              />
+              <label class="choice" for="Field5_1">nee</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="buttons">
+          <button type="button" id="previous">Terug</button>
+          <button type="button" id="next">Volgende</button>
+        </div>
+      
+      </div>
+      </div>
+    </form>
+  </body>
+</html>
